@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     
   </head>
-  <body> 
+  <body onload="renderTime()"> 
     <div id="navbar">
       <div id="navtext"> <span id="clock"></span></div>
      
@@ -24,9 +24,5 @@
     </div>
     <script type="module" src="/script.js"></script>
     <script src="clock.js"></script>
-    <script>
-      console.log(moment());
-      // $("#result").html(moment().format('MMMM Do YYYY, h:mm:ss a'))
-    </script>
   </body>
 </html>
