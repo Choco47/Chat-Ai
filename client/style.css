@@ -8,13 +8,13 @@
 }
 
 body {
-  background: #343541;
+  background: #1d1f2b;
 }
 
 #app {
   width: 100vw;
   height: 95vh;
-  background: #343541;
+  background: #1d1f2b;
 
   display: flex;
   flex-direction: column;
@@ -24,16 +24,22 @@ body {
 
 #navbar{
   height: 20px;
-  background: #a69cac;
+  background: white;
   justify-content: center;
   
+}
+.clock{
+  color: rgb(7, 7, 7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: small;
 }
 
 #navtext{
   text-align: center;
-  color: #fff;
+  color: rgb(7, 7, 7);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: small;
 }
 
@@ -65,7 +71,7 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: #3d2b6a;
 }
 
 .chat {
@@ -84,7 +90,7 @@ body {
   height: 45px;
   border-radius: 5px;
 
-  background: #5436DA;
+  background: #3c365b;
 
   display: flex;
   justify-content: center;
@@ -92,7 +98,7 @@ body {
 }
 
 .ai .profile {
-  background: #10a37f;
+  background: #e0e0e0;
 }
 
 .profile img {
@@ -132,7 +138,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: #303346;
 
   display: flex;
   flex-direction: row;
@@ -142,7 +148,7 @@ form {
 textarea {
   width: 100%;
 
-  color: #fff;
+  color: white;
   font-size: 18px;
 
   padding: 10px;

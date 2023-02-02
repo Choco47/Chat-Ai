@@ -1,5 +1,5 @@
-import bot from './assets/robot.png';
-import user from './assets/bee.png';
+import bot from './assets/bot.png';
+import user from './assets/hacker.png';
 
 const form  = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');

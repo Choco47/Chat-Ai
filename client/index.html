@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Choco AI</title>
     <link rel="stylesheet" href="style.css">
+    <script src="/clock/clock.js"></script>
   </head>
-  <body>
-    <div id="navbar"><p id="navtext">Scroll Down If You Can't See The Input Field</p> </div>
+  <body onload="showTime()">
+    <div id="navbar"><p id="navtext"> <span id="clock" ></span></p>  </div>
     <div id="app">
       <div id="chat_container"></div>
 
