@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Choco AI</title>
     <link rel="stylesheet" href="style.css">
-    <script src="/clock/clock.js"></script>
+    
   </head>
-  <body onload="showTime()">
-    <div id="navbar"><p id="navtext"> <span id="clock" ></span></p>  </div>
+  <body> 
+    <div id="navbar">
+      <div id="navtext"> <span id="clock"></span></div>
+     
+    </div>
     <div id="app">
       <div id="chat_container"></div>
 
@@ -20,5 +23,10 @@
 
     </div>
     <script type="module" src="/script.js"></script>
+    <script src="clock.js"></script>
+    <script>
+      console.log(moment());
+      // $("#result").html(moment().format('MMMM Do YYYY, h:mm:ss a'))
+    </script>
   </body>
 </html>
